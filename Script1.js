@@ -50,7 +50,7 @@ function test2(position) {
 
     var p = new Y.LatLng(lat, lon);
     //.drawMap((緯度、経度),倍率,.NORMALなら標準地図,.PHOTOなら航空写真)
-    ymap.drawMap(p, 22, Y.LayerSetId.NORMAL);
+    ymap.drawMap(p, 19, Y.LayerSetId.NORMAL);
 
 
     //ダブルclickした場所にマーカーを立てる
